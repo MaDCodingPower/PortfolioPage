@@ -108,6 +108,7 @@ h3 {
 
 .projectImg {
     max-width: 80%;
+    height: 70%;
     margin: 3em 3em;
     box-shadow: 3px 3px 10px .5px #1d4326;
     border-radius: 2em;
@@ -130,9 +131,17 @@ h3 {
     border-radius: 0.8em;
     padding: .5em;
     background-color: var(--mint);
-    color: #1d4326;
+    color: #275231;
     width: 60%;
     opacity: 93%;
+    text-decoration: none !important;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
     text-decoration: none;
 }
 

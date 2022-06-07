@@ -128,7 +128,7 @@ h3 {
     bottom: 5.68em;
     left: 1.5em;
     font-size: 2em;
-    border-radius: 0.1em 0.1em 0.1em 1em;
+    border-radius: 1em;
     padding: .5em;
     background-color: var(--mint);
     color: #275231;

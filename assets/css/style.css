@@ -207,3 +207,36 @@ footer {
 footer div {
     font-size: 1em;
 }
+
+.navbar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navBarLinks{
+        justify-content: center;
+        margin-left: 1em;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .aboutMe, .projects {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .matthewHeadshot {
+        margin-bottom: 2em;
+    }
+
+    .contact {
+        width: 90%;
+    }
+    
+}

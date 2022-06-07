@@ -6,37 +6,76 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Matthew Davis Portfolio</title>
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="icon" href="./favicon.ico.png" sizes="any">
     </head>
     <body>
-        <header>
-            <div class="name">Matthew Davis</div>
-            <div class="navBarLinks">
-                <a class="navLink" href="#bio">About Me</a>
-                <a class="navLink" href="#projectImgScroll">Projects</a>
-                <a class="navLink">Contact</a>
-            </div class="navBarLinks">
-        </header>
-        <main>
+        <div class="pageStructure">
+            <header>
+                <div class="name">Matthew Davis</div>
+                <div class="navBarLinks">
+                    <a class="navLink" href="#aboutScroll">About Me</a>
+                    <a class="navLink" href="#projectImgScroll">Projects</a>
+                    <a class="navLink" href="#contactScroll">Contact</a>
+                </div class="navBarLinks">
+            </header>
+            <main>
 
-            <h3>About Me</h3>
-            <section class="sectionHeader aboutMe">
-                <img src="./assets/img/IMG_1414.jpg" alt="Matthew's Headshot" class="matthewHeadshot">
-                <p id="bio">My name is Matthew. I was born in Manchester, New York and moved to Indianapolis where I still live now when I was 8 years old.
-                    Currently, my occupation is serving and bartending at a fine-dining establishment. While it is a great job, I have long wished to change 
-                    careers into web development. So, I am taking a chance on me!
-                    <br><br>I currently have little coding experience and am learning through the University of Washington Full stack bootcamp. I am already
-                    growing a deep passion for coding and web development, as I have always adored the process of problem solving. 
-                    <br><br>In my free time, I love being outdoors and playing sports such as volleyball and soccer. I enjoy spending time with my puppy (hover
-                    over my face for a surprise :)). The most important thing to me is my family, who has supported me through everything.
-                </p>         
-            </section>
-            <h3>Projects (More to come soon!)</h3>
-            <section class="sectionHeader projects">
-                <img src="./assets/img/RandomMovie.PNG" alt="Random Movie Selector Preview" class="projectImg" id="projectImgScroll">
-                <img src="./assets/img/DailyPlanner.PNG" alt="Daily Planner Preview" class="projectImg">
-            </section>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </main>
-        
+                <h3 id="aboutScroll">About Me</h3>
+                <section class="sectionHeader aboutMe">
+                    <img src="./assets/img/IMG_1414.jpg" alt="Matthew's Headshot" class="matthewHeadshot">
+                    <p id="bio">My name is Matthew. I was born in Manchester, New York and moved to Indianapolis where I still live now when I was 8 years old.
+                        Currently, my occupation is serving and bartending at a fine-dining establishment. While it is a great job, I have long wished to change 
+                        careers into web development. So, I am taking a chance on me!
+                        <br><br>I currently have little coding experience and am learning through the University of Washington Full stack bootcamp. I am already
+                        growing a deep passion for coding and web development, as I have always adored the process of problem solving. 
+                        <br><br>In my free time, I love being outdoors and playing sports such as volleyball and soccer. I enjoy spending time with my puppy (hover
+                        over my face for a surprise :)). The most important thing to me is my family, who has supported me through everything.
+                    </p>         
+                </section>
+                <h3 id="projectImgScroll">Projects (More to come soon!)</h3>
+                <section class="sectionHeader projects">
+                    <a href="https://reversedentistry.github.io/Random-Movie-Selector/" class="projectImgCard">
+                        <img src="./assets/img/RandomMovie.PNG" alt="Random Movie Selector Preview" class="projectImg">
+                        <div class="cardLabel">IMDB Random Movie Generator!</div>
+                    </a>
+                    <a href="https://MaDCodingPower.github.io/DailyPlannerWeek5/" class="projectImgCard">
+                        <img src="./assets/img/DailyPlanner.PNG" alt="Daily Planner Preview" class="projectImg">
+                        <div class="cardLabel">Daily Planner with Local Storage!</div>
+                    </a>
+                </section>
+                <h3 id="contactScroll">Contacts</h3>
+                <section class="contact">
+                    <section class="contactGroup">
+                        <img src="./assets/img/Gmail-Logo-removebg-preview.png" alt="gmail logo" class="logos">
+                        <a href="matthewdavis1372@gmail.com" class="contactLink">matthewdavis1372@gmail.com</a href="">
+                    </section>              
+                    <section class="contactGroup">
+                        <img src="./assets/img/instagram-emblem.png" alt="instagram emblem" class="logos">
+                        <a href="https://www.instagram.com/mashu_chashu/" class="contactLink">Mashu_Chashu</a href="">
+                    </section>                
+                    <section class="contactGroup">
+                        <img src="./assets/img/phone.png" alt="phone image" class="logos">
+                        <a href="317-941-8538" class="contactLink">317-941-8538</a href="">
+                    </section>                
+                    <section class="contactGroup">
+                        <img src="./assets/img/Twitter-Logo-Square.png" alt="twitter logo" class="logos">
+                        <a href="" class="contactLink">MaDShadow_</a href="">
+                    </section>
+                    <section class="contactGroup">
+                        <img src="./assets/img/Github.png" alt="github logo" class="logos github">
+                        <a href="https://github.com/MaDCodingPower" class="contactLink">Github</a>
+                    </section>
+                    <section class="contactGroup">
+                        <img src="./assets/img/LinkedIn.png" alt="Linked in logo" class="logos">
+                        <a href="" class="contactLink">LinkedIn</a>
+                    </section>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <img src="./assets/img/pikachu-running.gif" alt="pikachu running gif" class="footerImage">
+            <div>MaDCodingPowered Website</div>
+            <img src="./assets/img/pikachu-running.gif" alt="pikachu running gif" class="footerImage">
+        </footer>
     </body>
 </html>

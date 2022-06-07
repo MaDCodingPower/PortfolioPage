@@ -12,8 +12,8 @@
 }
 
 html {
-    max-width: 1500px;
-    margin: 0 auto;
+    /* max-width: 1500px; */
+    
     scroll-behavior: smooth;
 }
 
@@ -22,6 +22,7 @@ body {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+    
 }
 
 main {
@@ -29,7 +30,8 @@ main {
     justify-content: center;
     width: 92%;
     flex-wrap: wrap;
-
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 header {
@@ -38,18 +40,18 @@ header {
     background-color: var(--mint);
     text-align: center;
     justify-content: space-between;
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 1em;
-    box-shadow: 3px 3px 10px .5px #102315;
+    box-shadow: 3px 3px 10px .5px #1d4326;
+    border-radius: 0 0 1em 1em;
 }
 
 .name {
     font-size: 3em;
     color: var(--dark);
     padding-top: .35em;
-    padding-left: .3em;
+    padding-left: .5em;
 }
 
 .navBarLinks {
@@ -59,17 +61,21 @@ header {
 
 .navLink {
     font-size: 2em;
-    padding-top: .5em;
+    padding-top: .8em;
     margin-right: .6em;
     text-decoration: none;
     color: var(--zomp);
-    transition: color .3s;
+    border-bottom: 1px solid #A9FDAC;
+    transition: .6s;
 }
 
 .navLink:hover {
     border-bottom: 1px solid #44633F;
     color: var(--dark);
+}
 
+.contactLink:hover{
+    color: var(--dark);
 }
 
 h3 {
@@ -101,13 +107,95 @@ h3 {
 }
 
 .projectImg {
-    max-width: 720px;
-    max-height: 360px;
+    max-width: 80%;
     margin: 3em 3em;
-    box-shadow: 3px 3px 10px .5px #2d2c2c;
-    transition: .4s;
+    box-shadow: 3px 3px 10px .5px #1d4326;
+    border-radius: 2em;
 }
 
-.projectImg:hover {
+.projectImgCard {
+    transition: .4s;
+    flex: 1 1 30%;
+}
+
+.projectImgCard:hover {
     transform: scale(1.05);
+}
+
+.cardLabel{
+    position: relative;
+    bottom: 4.9em;
+    left: 1.4em;
+    font-size: 2em;
+    border-radius: 0.8em;
+    padding: .5em;
+    background-color: var(--mint);
+    color: #1d4326;
+    width: 60%;
+    opacity: 93%;
+    text-decoration: none;
+}
+
+.flexContainerRow{
+    width: 90%;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.logos {
+    max-width: 111px;
+    padding-top: 3em;
+}
+
+.contact {
+    margin: 2em 0 4em 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #c9e9b2;
+    border-radius: 2em;
+    padding: 0 2em 2em 2em;
+}
+
+.contactGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.github {
+    border-radius: 1em;
+}
+
+.contactLink {
+    text-decoration: none;
+    font-size: 2em;
+    color:rgb(140, 187, 141);
+    transition: .6s;
+    padding-left: 4em;
+    padding-top: 2em;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #97a88b;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1em 1em 0 0;
+}
+
+.footerImage{
+    display: block;
+    max-width: 4em;
+    max-height: 4em;
+}
+
+footer div {
+    font-size: 1em;
 }

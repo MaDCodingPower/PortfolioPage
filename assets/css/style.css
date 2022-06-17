@@ -99,6 +99,25 @@ h3 {
     max-height: 400px;
     border-radius: 1em; 
     box-shadow: 3px 3px 10px .5px #222222;
+    transition: .3s ease-in-out;
+}
+
+.matthewHeadshot:hover {
+    opacity: 0;
+}
+
+.shadow {
+    width: 390.375px;
+    max-height: 400px;
+    border-radius: 1em; 
+    box-shadow: 3px 3px 10px .5px #222222;
+    position: absolute;
+    opacity: 0.000000001;
+    transition: .3s ease-in-out;
+}
+
+.shadow:hover {
+    opacity: 1;
 }
 
 #bio {

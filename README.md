@@ -20,3 +20,4 @@ social media account of mine.
 
 ## Screenshots
 
+![Screenshot](https://user-images.githubusercontent.com/102272276/174228874-ac1fa8d1-70e8-47e2-a4e1-04c1f2bd9e70.PNG)

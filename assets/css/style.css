@@ -173,7 +173,7 @@ a:active{
 
 .logos {
     max-width: 111px;
-    padding-top: 3em;
+    margin-top: 3em;
     transition: .3s;
 }
 

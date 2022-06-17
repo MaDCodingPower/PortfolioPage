@@ -155,6 +155,11 @@ a:active{
 .logos {
     max-width: 111px;
     padding-top: 3em;
+    transition: .3s;
+}
+
+.logos:hover {
+    transform: scale(1.03);
 }
 
 .contact {
@@ -212,7 +217,14 @@ footer div {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+
+    body{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
 
     .navBarLinks{
         justify-content: center;
@@ -231,12 +243,21 @@ footer div {
         align-items: center;
     }
 
+    #bio {
+        padding: .5em;
+    }
+
     .matthewHeadshot {
         margin-bottom: 2em;
     }
 
     .contact {
         width: 90%;
+        align-items: center;
+    }
+
+    .contactLink {
+        display: none;
     }
     
 }
